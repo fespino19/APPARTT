@@ -1,0 +1,687 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:background="@drawable/inicio1"
+    android:scrollbars="none"
+    android:paddingLeft="5dp"
+    android:paddingRight="5dp">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <HorizontalScrollView
+            android:id="@+id/hs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="40dp"
+            android:background="#2FEF07D8"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            tools:ignore="MissingConstraints">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:orientation="horizontal">
+
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_marginEnd="3dp"
+                    android:layout_width="76dp"
+                    android:layout_height="99dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#00FBFBFB"
+                    app:cardCornerRadius="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.125"
+                    tools:ignore="MissingConstraints">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+                        app:cardBackgroundColor="#007BFF"
+                        app:cardCornerRadius="37dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            app:cardCornerRadius="35dp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/naruto7" />
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/textView1"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="#Naruto"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+
+                        android:visibility="visible"
+
+                        app:layout_constraintTop_toBottomOf="@+id/cardView"
+                        tools:layout_editor_absoluteX="1dp"
+                        tools:visibility="visible"
+                        tools:ignore="DuplicateIds" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_marginEnd="3dp"
+                    android:layout_width="76dp"
+                    android:layout_height="99dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#00FBFBFB"
+                    app:cardCornerRadius="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.125"
+                    tools:ignore="MissingConstraints">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/cardView1"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+                        app:cardBackgroundColor="#007BFF"
+                        app:cardCornerRadius="37dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            app:cardCornerRadius="35dp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/naruto7" />
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/textView2"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="#Onepiece"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+
+                        android:visibility="visible"
+
+                        app:layout_constraintTop_toBottomOf="@+id/cardView1"
+                        tools:ignore="DuplicateIds"
+                        tools:layout_editor_absoluteX="1dp"
+                        tools:visibility="visible" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_marginEnd="3dp"
+                    android:layout_width="76dp"
+                    android:layout_height="99dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#00FBFBFB"
+                    app:cardCornerRadius="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.125"
+                    tools:ignore="MissingConstraints">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/burbuja3"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+                        app:cardBackgroundColor="#007BFF"
+                        app:cardCornerRadius="37dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            app:cardCornerRadius="35dp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/naruto7" />
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/textView3"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="#Onepiece"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+
+                        android:visibility="visible"
+
+                        app:layout_constraintTop_toBottomOf="@+id/burbuja3"
+                        tools:ignore="DuplicateIds"
+                        tools:layout_editor_absoluteX="1dp"
+                        tools:visibility="visible" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_marginEnd="3dp"
+                    android:layout_width="76dp"
+                    android:layout_height="99dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#00FBFBFB"
+                    app:cardCornerRadius="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.125"
+                    tools:ignore="MissingConstraints">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/burbuja4"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+                        app:cardBackgroundColor="#007BFF"
+                        app:cardCornerRadius="37dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            app:cardCornerRadius="35dp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/naruto7" />
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/textView4"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="#Onepiece"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+
+                        android:visibility="visible"
+
+                        app:layout_constraintTop_toBottomOf="@+id/burbuja4"
+                        tools:ignore="DuplicateIds"
+                        tools:layout_editor_absoluteX="1dp"
+                        tools:visibility="visible" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_marginEnd="3dp"
+                    android:layout_width="76dp"
+                    android:layout_height="99dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#00FBFBFB"
+                    app:cardCornerRadius="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.125"
+                    tools:ignore="MissingConstraints">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/burbuja5"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+                        app:cardBackgroundColor="#000000"
+                        app:cardCornerRadius="37dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            app:cardCornerRadius="35dp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/naruto7" />
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/textView5"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="#Onepiece"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+
+                        android:visibility="visible"
+
+                        app:layout_constraintTop_toBottomOf="@+id/burbuja5"
+                        tools:ignore="DuplicateIds"
+                        tools:layout_editor_absoluteX="1dp"
+                        tools:visibility="visible" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_marginEnd="3dp"
+                    android:layout_width="76dp"
+                    android:layout_height="99dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#00FBFBFB"
+                    app:cardCornerRadius="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.125"
+                    tools:ignore="MissingConstraints">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/burbuja6"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+                        app:cardBackgroundColor="#000000"
+                        app:cardCornerRadius="37dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            app:cardCornerRadius="35dp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/naruto7" />
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/textView6"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="#Onepiece"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+
+                        android:visibility="visible"
+
+                        app:layout_constraintTop_toBottomOf="@+id/burbuja6"
+                        tools:ignore="DuplicateIds"
+                        tools:layout_editor_absoluteX="1dp"
+                        tools:visibility="visible" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+                <androidx.constraintlayout.widget.ConstraintLayout
+                    android:layout_marginEnd="3dp"
+                    android:layout_width="76dp"
+                    android:layout_height="99dp"
+                    android:layout_marginTop="5dp"
+                    android:background="#00FBFBFB"
+                    app:cardCornerRadius="20dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintHorizontal_bias="0.498"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent"
+                    app:layout_constraintVertical_bias="0.125"
+                    tools:ignore="MissingConstraints">
+
+                    <androidx.cardview.widget.CardView
+                        android:id="@+id/burbuja7"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:layout_gravity="center"
+                        app:cardBackgroundColor="#000000"
+                        app:cardCornerRadius="37dp"
+                        app:layout_constraintEnd_toEndOf="parent"
+                        app:layout_constraintStart_toStartOf="parent"
+                        app:layout_constraintTop_toTopOf="parent">
+
+                        <androidx.cardview.widget.CardView
+                            android:layout_width="70dp"
+                            android:layout_height="70dp"
+                            android:layout_gravity="center"
+                            app:cardCornerRadius="35dp">
+
+                            <ImageView
+                                android:layout_width="wrap_content"
+                                android:layout_height="match_parent"
+                                android:src="@drawable/naruto7" />
+
+
+                        </androidx.cardview.widget.CardView>
+
+
+                    </androidx.cardview.widget.CardView>
+
+                    <TextView
+                        android:id="@+id/textView7"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="#Onepiece"
+                        android:textAlignment="center"
+                        android:textColor="@color/white"
+
+                        android:visibility="visible"
+
+                        app:layout_constraintTop_toBottomOf="@+id/burbuja7"
+                        tools:ignore="DuplicateIds"
+                        tools:layout_editor_absoluteX="1dp"
+                        tools:visibility="visible" />
+
+
+                </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+
+
+
+
+
+            </LinearLayout>
+
+
+        </HorizontalScrollView>
+
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:id="@+id/constraintLayout"
+            android:layout_width="match_parent"
+            android:layout_height="649dp"
+            android:background="#00FBFBFB"
+            app:cardCornerRadius="20dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.0"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/hs"
+            app:layout_constraintVertical_bias="0.024"
+            tools:ignore="MissingConstraints">
+
+
+            <TextView
+                android:id="@+id/texto23"
+                android:layout_width="391dp"
+                android:layout_height="27dp"
+                android:layout_marginTop="160dp"
+                android:rotation="-360"
+                android:rotationX="-360"
+                android:rotationY="-360"
+                android:text="-21Roger    Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. "
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.2"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout3">
+
+
+            </TextView>
+
+            <TextView
+                android:id="@+id/texto"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="8dp"
+                android:rotation="-360"
+                android:rotationX="-360"
+                android:rotationY="-360"
+                android:text="-21Frank    Neque porro quisquam est qui dolorem ipsum quia dolor sit amet, consectetur, adipisci velit. "
+                android:textColor="@color/white"
+                android:textSize="10dp"
+                app:layout_constraintBottom_toTopOf="@+id/texto23"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent">
+
+
+            </TextView>
+
+            <androidx.cardview.widget.CardView
+                android:id="@+id/cardView23"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="center"
+                android:layout_marginStart="16dp"
+                app:cardBackgroundColor="#000000"
+                app:cardCornerRadius="37dp"
+                app:layout_constraintStart_toStartOf="parent">
+
+                <androidx.cardview.widget.CardView
+                    android:layout_width="30dp"
+                    android:layout_height="30dp"
+                    android:layout_gravity="center"
+                    app:cardCornerRadius="25dp">
+
+                    <ImageView
+                        android:id="@+id/ico1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/onlyfans" />
+
+
+                </androidx.cardview.widget.CardView>
+
+
+            </androidx.cardview.widget.CardView>
+
+
+            <TextView
+                android:id="@+id/texto1"
+                android:layout_width="57dp"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="8dp"
+                android:rotation="-360"
+                android:rotationX="-360"
+                android:rotationY="-360"
+                android:text="JDark"
+                android:textColor="@color/white"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.019"
+                app:layout_constraintStart_toEndOf="@+id/cardView23"
+                app:layout_constraintTop_toTopOf="parent">
+
+
+            </TextView>
+
+            <androidx.constraintlayout.widget.ConstraintLayout
+                android:id="@+id/constraintLayout3"
+                android:layout_width="match_parent"
+                android:layout_height="373dp"
+                android:layout_marginTop="16dp"
+                app:cardBackgroundColor="#00FBFBFB"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/cardView23">
+
+                <androidx.cardview.widget.CardView
+                    android:id="@+id/foto1"
+                    android:layout_width="407dp"
+                    android:layout_height="382dp"
+                    android:layout_gravity="center"
+                    app:cardBackgroundColor="#000000"
+                    app:cardCornerRadius="0dp"
+                    app:layout_constraintBottom_toBottomOf="parent"
+                    app:layout_constraintEnd_toEndOf="parent"
+                    app:layout_constraintStart_toStartOf="parent"
+                    app:layout_constraintTop_toTopOf="parent">
+
+                    <ImageView
+                        android:id="@+id/db1"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:src="@drawable/naruto7" />
+
+                </androidx.cardview.widget.CardView>
+
+            </androidx.constraintlayout.widget.ConstraintLayout>
+
+            <TextView
+                android:id="@+id/textViewpu"
+                android:layout_width="247dp"
+                android:layout_height="19dp"
+                android:layout_marginStart="4dp"
+                android:layout_marginBottom="4dp"
+                android:text=" Feliz cumple para el personaje de pelo amarillo "
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="13dp"
+                app:layout_constraintBottom_toTopOf="@+id/textView32"
+                app:layout_constraintStart_toEndOf="@+id/textViewusuario" />
+
+            <TextView
+                android:id="@+id/textViewusuario"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginBottom="4dp"
+                android:text="JDark  "
+                android:textAlignment="center"
+                android:textColor="@color/white"
+                android:textSize="14dp"
+                app:layout_constraintBottom_toTopOf="@+id/textView32"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <TextView
+                android:id="@+id/textViewmegusta"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="125 me gustan"
+                android:textColor="@color/white"
+                android:textSize="11dp"
+                app:layout_constraintBottom_toTopOf="@+id/textViewusuario"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout3"
+                app:layout_constraintVertical_bias="0.861"
+                tools:layout_editor_absoluteX="4dp" />
+
+            <TextView
+                android:id="@+id/textView32"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="4dp"
+                android:layout_marginBottom="8dp"
+                android:text="Comentarios"
+                android:textColor="@color/ic_launcher_background"
+                android:textSize="9dp"
+                app:layout_constraintBottom_toTopOf="@+id/texto"
+                app:layout_constraintStart_toStartOf="parent" />
+
+            <ImageView
+                android:id="@+id/btnLike"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="16dp"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:src="@drawable/like"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout3" />
+
+            <ImageView
+                android:id="@+id/btnShare"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="12dp"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:src="@drawable/send"
+                app:layout_constraintStart_toEndOf="@+id/btnComment"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout3" />
+
+            <ImageView
+                android:id="@+id/btnComment"
+                android:layout_width="48dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="56dp"
+                android:scaleX="0.5"
+                android:scaleY="0.5"
+                android:src="@drawable/comment"
+                app:layout_constraintStart_toStartOf="@+id/btnLike"
+                app:layout_constraintTop_toBottomOf="@+id/constraintLayout3" />
+
+
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+
+
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</ScrollView>

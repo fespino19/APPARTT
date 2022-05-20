@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group
+        android:id="@+id/grupoTop"
+        >
+
+        <item
+            android:id="@+id/action_global_perfilFragment_Perfil"
+            android:icon="@drawable/perfil"
+            android:iconTint="#03A9F4"
+            android:title="@string/perfil" />
+
+        <item
+            android:id="@id/action_global_perfilFragment_History"
+            android:icon="@drawable/informacion"
+
+            android:title="Publicaciones"
+            />
+
+    </group>
+
+    <group
+        android:id="@+id/grupoMid">
+
+        <item
+            android:id="@+id/cambiarIdiomaFragment"
+            android:icon="@drawable/idioma"
+            android:iconTint="#03A9F4"
+            android:title="@string/cambiar_idioma" />
+
+        <item
+            android:id="@+id/verAmigosFragment"
+            android:icon="@drawable/grupo"
+            android:iconTint="#03A9F4"
+            android:title="@string/amigos"
+            />
+
+        <item
+            android:id="@+id/calendarioFragment"
+            android:icon="@drawable/misdibujos"
+            android:iconTint="#03A9F4"
+            android:title="Mis dibujos"/>
+
+    </group>
+
+    <group
+        android:id="@+id/grupoBottom">
+
+        <item
+            android:id="@+id/appInfoFragment"
+            android:icon="@drawable/informacion"
+            android:iconTint="#03A9F4"
+            android:title="@string/app_info" />
+
+        <item
+            android:id="@+id/confirmarLogoutFragment"
+            android:icon="@drawable/salir"
+            android:iconTint="#03A9F4"
+            android:title="@string/salir" />
+
+    </group>
+
+</menu>

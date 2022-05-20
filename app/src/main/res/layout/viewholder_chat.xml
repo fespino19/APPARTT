@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="65dp"
+    android:background="#1D9E51F6">
+
+    <ImageView
+        android:id="@+id/imageViewChat"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:src="@drawable/ross1"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginStart="10dp"
+        android:background="@drawable/background_image_icon"/>
+
+    <LinearLayout
+        android:id="@+id/linearLayoutChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        app:layout_constraintStart_toEndOf="@id/imageViewChat"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintBottom_toBottomOf="parent"
+        android:layout_marginStart="10dp">
+
+        <TextView
+            android:id="@+id/summonerChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/_21roger"
+            android:textColor="@color/white"
+            android:fontFamily="@font/ubuntu_bold"
+            android:textSize="15dp" />
+
+        <TextView
+            android:id="@+id/statusChat"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Online"
+            android:textColor="#1ECA18"/>
+
+    </LinearLayout>
+
+    <View
+        android:id="@+id/statusBallChat"
+        android:layout_width="13dp"
+        android:layout_height="13dp"
+        android:background="@drawable/online_circular_chat_status"
+        app:layout_constraintBottom_toBottomOf="@+id/imageViewChat"
+        app:layout_constraintEnd_toEndOf="@+id/imageViewChat"
+        app:layout_constraintHorizontal_bias="1.0"
+        app:layout_constraintStart_toStartOf="@+id/imageViewChat"
+        app:layout_constraintTop_toTopOf="@+id/imageViewChat"
+        app:layout_constraintVertical_bias="0.89" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

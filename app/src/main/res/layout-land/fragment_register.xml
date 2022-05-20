@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/inicio1"
+    tools:context=".StartFragments.RegisterFragment">
+
+    <ImageView
+        android:id="@+id/image"
+        android:layout_width="170dp"
+        android:layout_height="120dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="10dp"
+        android:src="@drawable/logo"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintLeft_toLeftOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.47000003" />
+
+
+    <LinearLayout
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="45dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/image"
+        app:layout_constraintTop_toTopOf="parent"
+        android:paddingEnd="40dp"
+        tools:ignore="RtlSymmetry">
+
+        <EditText
+            android:id="@+id/textEditCorreo"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="40dp"
+            android:background="@drawable/text_edits_login_signup"
+            android:hint="@string/correo"
+            android:paddingStart="20dp"
+            android:textColorHint="#96FFFFFF" />
+
+        <EditText
+            android:id="@+id/textEditPassword"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_edits_login_signup"
+            android:hint="@string/contrase_a"
+            android:paddingStart="20dp"
+            android:textColorHint="#96FFFFFF" />
+
+        <EditText
+            android:id="@+id/textEditUsername"
+            android:layout_width="match_parent"
+            android:layout_height="55dp"
+            android:layout_marginTop="10dp"
+            android:background="@drawable/text_edits_login_signup"
+            android:hint="@string/nombre_de_usuario"
+            android:paddingStart="20dp"
+            android:textColorHint="#96FFFFFF" />
+
+        <Button
+            android:id="@+id/buttonLogin"
+            android:layout_width="match_parent"
+            android:layout_height="45dp"
+            android:layout_marginTop="10dp"
+            android:background="@color/purple_200"
+            android:fontFamily="@font/ubuntu_medium"
+            android:text="@string/registrarse"
+            android:textColor="@color/black"
+            />
+
+    </LinearLayout>
+
+    <androidx.constraintlayout.widget.Barrier
+        android:id="@+id/barrier2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:barrierDirection="right"
+        app:constraint_referenced_ids="image" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
+
