@@ -36,8 +36,8 @@ public class ConfirmarLogoutFragment extends DialogFragment {
         navController = Navigation.findNavController(requireParentFragment().requireView());
 
         binding.buttomConfirmar.setOnClickListener(v -> {
-            appViewModel.cerrarSesion();
-            navController.navigate(R.id.action_confirmarLogoutFragment_to_firstScreenFragment);
+           // appViewModel.cerrarSesion();
+            navController.navigate(R.id.action_confirmarLogoutFragment_to_splashScreenFragment);
         });
 
         binding.buttomCancelar.setOnClickListener(v -> dismiss());

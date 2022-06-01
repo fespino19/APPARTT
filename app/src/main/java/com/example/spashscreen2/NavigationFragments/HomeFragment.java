@@ -38,9 +38,10 @@ public class HomeFragment extends Fragment {
         navController = Navigation.findNavController(view);
 
 
-            binding.texto1.setOnClickListener(v -> navController.navigate(R.id.action_homeFragment_to_gameTypeFragment));
-            binding.ico1.setOnClickListener(v -> navController.navigate(R.id.action_homeFragment_to_gameTypeFragment));
-            binding.db1.setOnClickListener(v -> navController.navigate(R.id.action_homeFragment_to_gameTypeFragment));
+            binding.texto1.setOnClickListener(v -> navController.navigate(R.id.action_homeFragment_to_otroPerfilFragment));
+            binding.ico1.setOnClickListener(v -> navController.navigate(R.id.action_homeFragment_to_otroPerfilFragment));
+            binding.db1.setOnClickListener(v -> navController.navigate(R.id.action_homeFragment_to_otroPerfilFragment));
+
 
 
 

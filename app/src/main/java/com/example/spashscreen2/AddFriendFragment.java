@@ -50,10 +50,10 @@ public class AddFriendFragment extends Fragment {
                 Toast.makeText(requireContext(), "Seleccione una imagen", Toast.LENGTH_SHORT).show();
                 return;
             } else if (binding.nombreAmigoAnadir.getText().toString().isEmpty()) {
-                binding.nombreAmigoAnadir.setError("Introduzca el nombre");
+                binding.nombreAmigoAnadir.setError("Introduzca el Artista");
                 return;
             } else if (binding.puntuacionAmigoAnadir.getText().toString().isEmpty()) {
-                binding.puntuacionAmigoAnadir.setError("Introduzca la puntuacion");
+                binding.puntuacionAmigoAnadir.setError("Introduzca un comentario");
                 return;
             }
             String nombreAmigo = binding.nombreAmigoAnadir.getText().toString();

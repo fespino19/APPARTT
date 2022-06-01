@@ -36,7 +36,7 @@ public class MainActivity extends AppCompatActivity {
         binding.toolbar.setTitleTextColor(getResources().getColor(R.color.white));
 
         appBarConfiguration = new AppBarConfiguration.Builder(
-                R.id.homeFragment, R.id.quizesFragment, R.id.puntuacionesFragment, R.id.amigosFragment
+                R.id.homeFragment, R.id.buscarFragment, R.id.puntuacionesFragment, R.id.amigosFragment
         ).setOpenableLayout(binding.drawerLayout).build();
 
         navController = ((NavHostFragment) getSupportFragmentManager().findFragmentById(R.id.nav_host_fragment)).getNavController();
@@ -55,9 +55,7 @@ public class MainActivity extends AppCompatActivity {
                     binding.bottomNavigation.setVisibility(View.GONE);
                     binding.viewBottom.setVisibility(View.GONE);
             }  else if (destination.getId() == R.id.splashScreenFragment || destination.getId() == R.id.signInFragment || destination.getId() == R.id.signUpFragment
-                || destination.getId() == R.id.firstScreenFragment || destination.getId() == R.id.gameTypeFragment ||destination.getId() == R.id.startingGameFragment
-                || destination.getId() == R.id.preguntaUnoFragment || destination.getId() == R.id.preguntaDosFragment || destination.getId() == R.id.preguntaDiezFragment
-                || destination.getId() == R.id.resultadoPreguntasFragment || destination.getId() == R.id.puzzlesDisponiblesFragment || destination.getId() == R.id.addFriendFragment) {
+                || destination.getId() == R.id.firstScreenFragment || destination.getId() == R.id.otroPerfilFragment|| destination.getId() == R.id.addFriendFragment) {
                     binding.bottomNavigation.setVisibility(View.GONE);
                     binding.toolbar.setVisibility(View.GONE);
                     binding.viewBottom.setVisibility(View.GONE);

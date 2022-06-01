@@ -26,7 +26,7 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:fontFamily="@font/ubuntu_bold"
-            android:text="Publicaciones"
+            android:text="Publicar"
             android:textAlignment="center"
             android:textColor="#F7FFC8"
             android:textSize="40sp"
@@ -47,29 +47,6 @@
             app:defaultQueryHint="Buscar amigo"
             app:layout_constraintTop_toBottomOf="@id/textPuntuaciones"/>
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/invocador"
-            android:textSize="20sp"
-            android:textColor="#F7FFC8"
-            android:fontFamily="@font/ubuntu_medium"
-            app:layout_constraintTop_toBottomOf="@id/buscarAmigos"
-            app:layout_constraintStart_toStartOf="parent"
-            android:layout_marginStart="15dp"
-            android:layout_marginTop="15dp" />
-
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/puntuaci_n"
-            android:textColor="#F7FFC8"
-            android:textSize="20sp"
-            android:fontFamily="@font/ubuntu_medium"
-            app:layout_constraintTop_toBottomOf="@id/buscarAmigos"
-            app:layout_constraintEnd_toEndOf="parent"
-            android:layout_marginEnd="15sp"
-            android:layout_marginTop="15dp"/>
 
     </androidx.constraintlayout.widget.ConstraintLayout>
 

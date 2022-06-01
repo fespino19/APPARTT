@@ -7,14 +7,14 @@
         android:title="Home" />
 
     <item
-        android:id="@+id/quizesFragment"
+        android:id="@+id/buscarFragment"
         android:icon="@drawable/buscar"
-        android:title="Quizes" />
+        android:title="Buscar" />
 
     <item
         android:id="@+id/puntuacionesFragment"
         android:icon="@drawable/informacion"
-        android:title="Puntuaciones" />
+        android:title="Publicar" />
 
     <item
         android:id="@+id/amigosFragment"

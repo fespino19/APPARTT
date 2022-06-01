@@ -37,7 +37,7 @@ public class RegisterFragment extends Fragment {
         appViewModel = new ViewModelProvider(requireActivity()).get(AppViewModel.class);
         navController = Navigation.findNavController(view);
 
-        appViewModel.iniciarRegistro();
+
 
         binding.register.setOnClickListener(v -> {
 
@@ -45,7 +45,6 @@ public class RegisterFragment extends Fragment {
             String password = binding.passwordRegister.getText().toString();
             String email = binding.emailRegister.getText().toString();
 
-            appViewModel.crearCuentaEIniciarSesion(username, password, email);
 
         });
         binding.register.setOnClickListener(new View.OnClickListener() {
@@ -55,21 +54,7 @@ public class RegisterFragment extends Fragment {
             }
         });
 
-        /*appViewModel.estadoDelRegistro.observe(getViewLifecycleOwner(), estadoDelRegistro -> {
-            switch (estadoDelRegistro){
-                case NOMBRE_NO_DISPONIBLE:
-                    Toast.makeText(getContext(), "NOMBRE DE USUARIO NO DISPONIBLE", Toast.LENGTH_SHORT).show();
-                    break;
-            }
-        });
 
-        appViewModel.estadoDeLaAutenticacion.observe(getViewLifecycleOwner(), estadoDeLaAutenticacion -> {
-            switch (estadoDeLaAutenticacion){
-                case AUTENTICADO:
-                    navController.navigate(R.id.action_signUpFragment_to_signInFragment);
-                    break;
-            }
-        });*/
 
     }
 }

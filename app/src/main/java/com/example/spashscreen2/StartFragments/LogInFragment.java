@@ -47,17 +47,6 @@ public class LogInFragment extends Fragment {
             appViewModel.iniciarSesion(username, password);
         });
 
-       /* appViewModel.estadoDeLaAutenticacion.observe(getViewLifecycleOwner(), estadoDeLaAutenticacion -> {
-            switch (estadoDeLaAutenticacion){
-                case AUTENTICADO:
-                    navController.navigate(R.id.action_signInFragment_to_homeFragment);
-                    break;
-
-                case AUTENTICACION_INVALIDA:
-                    Toast.makeText(getContext(), R.string.autenticacion, Toast.LENGTH_SHORT).show();
-                    break;
-            }
-        });*/
 
         binding.buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override

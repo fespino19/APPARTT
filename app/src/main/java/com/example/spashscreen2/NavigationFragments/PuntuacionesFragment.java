@@ -20,6 +20,7 @@ import com.bumptech.glide.load.resource.bitmap.RoundedCorners;
 import com.example.spashscreen2.Model.Puntuaciones;
 import com.example.spashscreen2.Model.PuntuacionesViewModel;
 import com.example.spashscreen2.R;
+
 import com.example.spashscreen2.databinding.FragmentPuntuacionesBinding;
 import com.example.spashscreen2.databinding.ViewholderPuntuacionesBinding;
 
@@ -52,18 +53,6 @@ public class PuntuacionesFragment extends Fragment {
 
         puntuacionesViewModel.obtener().observe(getViewLifecycleOwner(), adapterPuntuaciones::establecerPuntuacionesList);
 
-        /*binding.buscarAmigos.setOnQueryTextListener(new SearchView.OnQueryTextListener() {
-            @Override
-            public boolean onQueryTextSubmit(String query) {
-                return false;
-            }
-
-            @Override
-            public boolean onQueryTextChange(String newText) {
-                puntuacionesViewModel.establecerTerminoBusqueda(newText);
-                return false;
-            }
-        });*/
 
 
     }

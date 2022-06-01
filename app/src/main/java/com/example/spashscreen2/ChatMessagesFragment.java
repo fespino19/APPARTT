@@ -45,7 +45,7 @@ public class ChatMessagesFragment extends Fragment {
 
             binding.textSummonerChat.setText(chat.getNameChat());
             binding.statusSummonerChat.setText(chat.getStatusChat());
-            Glide.with(requireActivity()).load(chat.getImgCharURL()).into(binding.imgSummonerChat);
+            //Glide.with(requireActivity()).load(chat.getImgCharURL()).into(binding.imgSummonerChat);
 
             if (chat.getStatusChat().equals("Online")) {
                 binding.statusSummonerChat.setTextColor(ContextCompat.getColor(requireActivity(), R.color.OnlineColor));

@@ -10,10 +10,8 @@ import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import androidx.viewpager2.adapter.FragmentStateAdapter;
 
-import com.example.spashscreen2.HistorialPartidasFragment;
 import com.example.spashscreen2.R;
 import com.example.spashscreen2.databinding.FragmentPerfilBinding;
-import com.google.android.material.tabs.TabLayout;
 import com.google.android.material.tabs.TabLayoutMediator;
 
 public class PerfilFragment extends Fragment {
@@ -34,35 +32,5 @@ public class PerfilFragment extends Fragment {
         int argumento = getArguments().getInt("argumento");
 
 
-        binding.viewPager.setAdapter(new FragmentStateAdapter(this) {
-            @NonNull
-            @Override
-            public Fragment createFragment(int position) {
-                switch (position) {
-                    case 0: default:
-                        return new InfoPerfilFragment();
-                    case 1:
-                        return new HistorialPartidasFragment();
-                }
-            }
-
-            @Override
-            public int getItemCount() {
-                return 2;
-            }
-        });
-
-        new TabLayoutMediator(binding.tabLayout, binding.viewPager, (tab, position) -> {
-            switch (position) {
-                case 0: default:
-                    tab.setText(R.string.perfil);
-                    break;
-                case 1:
-                    tab.setText(R.string.historial_de_partidas);
-                    break;
-            }
-        }).attach();
-
-        binding.viewPager.post(() -> binding.viewPager.setCurrentItem(argumento));
     }
 }

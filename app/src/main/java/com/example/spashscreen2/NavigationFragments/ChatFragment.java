@@ -50,106 +50,106 @@ public class ChatFragment extends Fragment {
         binding.recyclerViewChat.setAdapter(adapterChat);
 
         Chat chat1 = new Chat();
-        chat1.setImgCharURL("https://www.setupsgamers.com/img/carousel/ibai.png");
-        chat1.setNameChat("Ibai");
+        chat1.setImgCharURL("https://i.pinimg.com/originals/e2/f9/ea/e2f9ea729865e385db19071c65d39107.jpg");
+        chat1.setNameChat("Ross");
         chat1.setStatusChat("Online");
         chat1.setStatusBall("green");
         elementosChats.add(chat1);
 
         Chat chat2 = new Chat();
-        chat2.setImgCharURL("https://i.ibb.co/KsFzJfw/Talon.png");
-        chat2.setNameChat("Dani");
+        chat2.setImgCharURL("https://static.wikia.nocookie.net/marvelcinematicuniverse/images/0/06/Thanos.png/revision/latest?cb=20220510235448&path-prefix=es");
+        chat2.setNameChat("Shihiro");
         chat2.setStatusChat("Online");
         chat2.setStatusBall("green");
         elementosChats.add(chat2);
 
         Chat chat3 = new Chat();
-        chat3.setImgCharURL("https://i.ibb.co/yyF170D/Padre-Willyrex.png");
-        chat3.setNameChat("Joel");
+        chat3.setImgCharURL("https://pm1.narvii.com/6684/028806ece8b7596274a39c9f061a8fdd20ee0237_hq.jpg");
+        chat3.setNameChat("Kawasaki");
         chat3.setStatusChat("Online");
         chat3.setStatusBall("green");
         elementosChats.add(chat3);
 
         Chat chat4 = new Chat();
-        chat4.setImgCharURL("https://i.ibb.co/2qcgnG1/G2.png");
-        chat4.setNameChat("Kakas");
+        chat4.setImgCharURL("https://cdna.artstation.com/p/assets/images/images/038/210/660/20210531131145/smaller_square/rossdraws-spectral-depths-web.jpg?1622484706");
+        chat4.setNameChat("Masashi");
         chat4.setStatusChat("Online");
         chat4.setStatusBall("green");
         elementosChats.add(chat4);
 
         Chat chat5 = new Chat();
-        chat5.setImgCharURL("https://i.ibb.co/DMfyBkv/Riven.png");
-        chat5.setNameChat("zafiro");
+        chat5.setImgCharURL("https://cdna.artstation.com/p/assets/images/images/038/210/660/20210531131145/smaller_square/rossdraws-spectral-depths-web.jpg?1622484706");
+        chat5.setNameChat("kishimoto");
         chat5.setStatusChat("Online");
         chat5.setStatusBall("green");
         elementosChats.add(chat5);
 
         Chat chat6 = new Chat();
-        chat6.setImgCharURL("https://i.ibb.co/j4CLhkq/Yasuo.png");
-        chat6.setNameChat("putin");
+        chat6.setImgCharURL("https://cdna.artstation.com/p/assets/images/images/038/210/660/20210531131145/smaller_square/rossdraws-spectral-depths-web.jpg?1622484706");
+        chat6.setNameChat("Marcos");
         chat6.setStatusChat("Online");
         chat6.setStatusBall("green");
         elementosChats.add(chat6);
 
         Chat chat7 = new Chat();
-        chat7.setImgCharURL("https://i.ibb.co/BBzc02V/Ekko.png");
-        chat7.setNameChat("chaplin");
+        chat7.setImgCharURL("https://cdna.artstation.com/p/assets/images/images/038/210/660/20210531131145/smaller_square/rossdraws-spectral-depths-web.jpg?1622484706");
+        chat7.setNameChat("Saphiro");
         chat7.setStatusChat("Offline");
         chat7.setStatusBall("red");
         elementosChats.add(chat7);
 
         Chat chat8 = new Chat();
-        chat8.setImgCharURL("https://i.ibb.co/gMpFgM4/Gangplank.png");
-        chat8.setNameChat("tusabe");
+        chat8.setImgCharURL("https://cdna.artstation.com/p/assets/images/images/038/210/660/20210531131145/smaller_square/rossdraws-spectral-depths-web.jpg?1622484706");
+        chat8.setNameChat("Jdark");
         chat8.setStatusChat("Offline");
         chat8.setStatusBall("red");
         elementosChats.add(chat8);
 
         Chat chat9 = new Chat();
-        chat9.setImgCharURL("https://i.ibb.co/1nzYpzq/Bronza.png");
-        chat9.setNameChat("casigey");
+        chat9.setImgCharURL("https://cdna.artstation.com/p/assets/images/images/038/210/660/20210531131145/smaller_square/rossdraws-spectral-depths-web.jpg?1622484706");
+        chat9.setNameChat("chaki");
         chat9.setStatusChat("Offline");
         chat9.setStatusBall("red");
         elementosChats.add(chat9);
 
         Chat chat10 = new Chat();
-        chat10.setImgCharURL("https://i.ibb.co/crHjdbn/DJSona.png");
-        chat10.setNameChat("Travieso");
+        chat10.setImgCharURL("https://cdna.artstation.com/p/assets/covers/images/040/771/992/20210824142957/smaller_square/rossdraws-rossdraws-123123412.jpg?1629833398");
+        chat10.setNameChat("Thanos");
         chat10.setStatusChat("Offline");
         chat10.setStatusBall("red");
         elementosChats.add(chat10);
 
         Chat chat11 = new Chat();
-        chat11.setImgCharURL("https://i.ibb.co/d202bQD/Draven.png");
-        chat11.setNameChat("Lilo");
+        chat11.setImgCharURL("https://cdna.artstation.com/p/assets/covers/images/040/771/992/20210824142957/smaller_square/rossdraws-rossdraws-123123412.jpg?1629833398");
+        chat11.setNameChat("Liu");
         chat11.setStatusChat("Offline");
         chat11.setStatusBall("red");
         elementosChats.add(chat11);
 
         Chat chat12 = new Chat();
-        chat12.setImgCharURL("https://i.ibb.co/88g481W/SKT.png");
-        chat12.setNameChat("martina");
+        chat12.setImgCharURL("https://cdna.artstation.com/p/assets/images/images/038/210/660/20210531131145/smaller_square/rossdraws-spectral-depths-web.jpg?1622484706");
+        chat12.setNameChat("Cruz");
         chat12.setStatusChat("Offline");
         chat12.setStatusBall("red");
         elementosChats.add(chat12);
 
         Chat chat13 = new Chat();
-        chat13.setImgCharURL("https://i.ibb.co/YZzWJwF/Akali.png");
-        chat13.setNameChat("Aldart");
+        chat13.setImgCharURL("https://cdna.artstation.com/p/assets/images/images/038/210/660/20210531131145/smaller_square/rossdraws-spectral-depths-web.jpg?1622484706");
+        chat13.setNameChat("Jezuz");
         chat13.setStatusChat("Offline");
         chat13.setStatusBall("red");
         elementosChats.add(chat13);
 
         Chat chat14 = new Chat();
-        chat14.setImgCharURL("https://i.ibb.co/w6Gqhff/Ahri.png");
-        chat14.setNameChat("Romero");
+        chat14.setImgCharURL("https://cdna.artstation.com/p/assets/covers/images/040/771/992/20210824142957/smaller_square/rossdraws-rossdraws-123123412.jpg?1629833398");
+        chat14.setNameChat("Bryan");
         chat14.setStatusChat("Offline");
         chat14.setStatusBall("red");
         elementosChats.add(chat14);
 
         Chat chat15 = new Chat();
-        chat15.setImgCharURL("https://i.ibb.co/HnPZhQz/TSM.png");
-        chat15.setNameChat("JakioX");
+        chat15.setImgCharURL("https://cdna.artstation.com/p/assets/covers/images/040/771/992/20210824142957/smaller_square/rossdraws-rossdraws-123123412.jpg?1629833398");
+        chat15.setNameChat("Gargamiel");
         chat15.setStatusChat("Offline");
         chat15.setStatusBall("red");
         elementosChats.add(chat15);

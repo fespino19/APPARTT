@@ -15,30 +15,33 @@
         android:layout_marginTop="30dp"
         app:layout_constraintTop_toTopOf="parent"
         android:background="@drawable/text_edits_login_signup"
-        android:hint="Nombre de amigo"
+        android:hint="Nombre del Artista"
         android:textColorHint="@color/white"
         android:paddingStart="15dp"/>
 
     <EditText
         android:id="@+id/puntuacionAmigoAnadir"
         android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:layout_marginTop="10dp"
-        app:layout_constraintTop_toBottomOf="@id/nombreAmigoAnadir"
+        android:layout_height="100dp"
+        android:layout_marginTop="24dp"
         android:background="@drawable/text_edits_login_signup"
-        android:hint="Puntuación"
+        android:hint="Comentario"
+        android:paddingStart="15dp"
         android:textColorHint="@color/white"
-        android:paddingStart="15dp"/>
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/addImagenAnadir" />
 
     <ImageView
         android:id="@+id/addImagenAnadir"
-        android:layout_width="140dp"
-        android:layout_height="140dp"
+        android:layout_width="388dp"
+        android:layout_height="258dp"
+        android:layout_marginTop="16dp"
+        android:src="@drawable/marcador"
         app:layout_constraintEnd_toEndOf="parent"
-        android:layout_marginTop="20dp"
+        app:layout_constraintHorizontal_bias="0.4"
         app:layout_constraintStart_toStartOf="parent"
-        android:src="@drawable/addimg"
-        app:layout_constraintTop_toBottomOf="@+id/puntuacionAmigoAnadir" />
+        app:layout_constraintTop_toBottomOf="@+id/nombreAmigoAnadir" />
 
     <Button
         android:id="@+id/botonDeAnadir"

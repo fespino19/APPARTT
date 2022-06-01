@@ -2,59 +2,90 @@
 <androidx.constraintlayout.widget.ConstraintLayout
     xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="65dp"
     android:background="#1D9E51F6">
 
-    <ImageView
-        android:id="@+id/imageViewChat"
-        android:layout_width="50dp"
-        android:layout_height="50dp"
-        android:src="@drawable/ross1"
+
+    <androidx.cardview.widget.CardView
+
+        android:id="@+id/cardView2"
+        android:layout_width="55dp"
+        android:layout_height="55dp"
+        android:layout_gravity="center"
+        android:layout_marginStart="1dp"
+        app:cardBackgroundColor="#000000"
+        app:cardCornerRadius="37dp"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintStart_toStartOf="parent"
-        app:layout_constraintTop_toTopOf="parent"
-        android:layout_marginStart="10dp"
-        android:background="@drawable/background_image_icon"/>
+        app:layout_constraintTop_toTopOf="parent">
 
-    <LinearLayout
-        android:id="@+id/linearLayoutChat"
+        <androidx.cardview.widget.CardView
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_gravity="center"
+            app:cardCornerRadius="25dp">
+
+            <ImageView
+                android:id="@+id/imageViewChat"
+                android:layout_width="53dp"
+                android:layout_height="58dp"
+                android:src="@drawable/ross2" />
+
+
+        </androidx.cardview.widget.CardView>
+
+
+    </androidx.cardview.widget.CardView>
+
+
+    <TextView
+        android:id="@+id/summonerChat"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        app:layout_constraintStart_toEndOf="@id/imageViewChat"
-        app:layout_constraintTop_toTopOf="parent"
-        app:layout_constraintBottom_toBottomOf="parent"
-        android:layout_marginStart="10dp">
+        android:layout_marginStart="12dp"
+        android:layout_marginTop="12dp"
+        android:fontFamily="@font/ubuntu_bold"
+        android:text="JDark"
+        android:textColor="@color/white"
+        android:textSize="15dp"
+        app:layout_constraintStart_toEndOf="@+id/cardView2"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:id="@+id/summonerChat"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="@string/_21roger"
-            android:textColor="@color/white"
-            android:fontFamily="@font/ubuntu_bold"
-            android:textSize="15dp" />
-
-        <TextView
-            android:id="@+id/statusChat"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Online"
-            android:textColor="#1ECA18"/>
-
-    </LinearLayout>
+    <TextView
+        android:id="@+id/statusChat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="23dp"
+        android:layout_marginTop="6dp"
+        android:text="Online"
+        android:textColor="#1ECA18"
+        app:layout_constraintStart_toEndOf="@+id/cardView2"
+        app:layout_constraintTop_toBottomOf="@+id/summonerChat" />
 
     <View
         android:id="@+id/statusBallChat"
         android:layout_width="13dp"
         android:layout_height="13dp"
+        android:layout_marginEnd="10dp"
+        android:layout_marginBottom="16dp"
         android:background="@drawable/online_circular_chat_status"
-        app:layout_constraintBottom_toBottomOf="@+id/imageViewChat"
-        app:layout_constraintEnd_toEndOf="@+id/imageViewChat"
-        app:layout_constraintHorizontal_bias="1.0"
-        app:layout_constraintStart_toStartOf="@+id/imageViewChat"
-        app:layout_constraintTop_toTopOf="@+id/imageViewChat"
-        app:layout_constraintVertical_bias="0.89" />
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toStartOf="@+id/statusChat"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toEndOf="@+id/cardView2" />
+
+    <LinearLayout
+        android:id="@+id/linearLayoutChat"
+        android:layout_width="46dp"
+        android:layout_height="6dp"
+        android:layout_marginStart="10dp"
+        android:layout_marginBottom="16dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toEndOf="@+id/statusChat">
+
+    </LinearLayout>
 
 </androidx.constraintlayout.widget.ConstraintLayout>
