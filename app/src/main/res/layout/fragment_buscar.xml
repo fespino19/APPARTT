@@ -305,7 +305,7 @@
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginLeft="27dp"
-                            android:src="@drawable/onlyfans" />
+                            android:src="@drawable/ross8" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -313,7 +313,7 @@
                             android:layout_marginLeft="10dp"
                             android:layout_marginTop="75dp"
                             android:gravity="center"
-                            android:text="aqui estamos"
+                            android:text="RossDraw"
                             android:textSize="11dp" />
 
                         <ImageView
@@ -351,7 +351,7 @@
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginLeft="27dp"
-                            android:src="@drawable/onlyfans" />
+                            android:src="@drawable/ross2" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -397,7 +397,7 @@
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginLeft="27dp"
-                            android:src="@drawable/onlyfans" />
+                            android:src="@drawable/ross3" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -445,7 +445,7 @@
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginLeft="27dp"
-                            android:src="@drawable/onlyfans" />
+                            android:src="@drawable/ross4" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -492,7 +492,7 @@
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginLeft="27dp"
-                            android:src="@drawable/onlyfans" />
+                            android:src="@drawable/ross5" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -539,7 +539,7 @@
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginLeft="27dp"
-                            android:src="@drawable/onlyfans" />
+                            android:src="@drawable/ross6" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -587,7 +587,7 @@
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginLeft="27dp"
-                            android:src="@drawable/onlyfans" />
+                            android:src="@drawable/ross7" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -634,7 +634,7 @@
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginLeft="27dp"
-                            android:src="@drawable/onlyfans" />
+                            android:src="@drawable/ross8" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -681,7 +681,7 @@
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginLeft="27dp"
-                            android:src="@drawable/onlyfans" />
+                            android:src="@drawable/ross9" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -729,7 +729,7 @@
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginLeft="27dp"
-                            android:src="@drawable/onlyfans" />
+                            android:src="@drawable/ross1" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -776,7 +776,7 @@
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginLeft="27dp"
-                            android:src="@drawable/onlyfans" />
+                            android:src="@drawable/ross2" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -823,7 +823,7 @@
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginLeft="27dp"
-                            android:src="@drawable/onlyfans" />
+                            android:src="@drawable/ross3" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -871,7 +871,7 @@
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginLeft="27dp"
-                            android:src="@drawable/onlyfans" />
+                            android:src="@drawable/ross4" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -918,7 +918,7 @@
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginLeft="27dp"
-                            android:src="@drawable/onlyfans" />
+                            android:src="@drawable/ross5" />
 
                         <TextView
                             android:layout_width="wrap_content"
@@ -965,7 +965,7 @@
                             android:layout_width="60dp"
                             android:layout_height="60dp"
                             android:layout_marginLeft="27dp"
-                            android:src="@drawable/onlyfans" />
+                            android:src="@drawable/ross7" />
 
                         <TextView
                             android:layout_width="wrap_content"

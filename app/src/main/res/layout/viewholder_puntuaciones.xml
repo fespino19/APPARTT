@@ -16,6 +16,7 @@
         android:layout_marginTop="10dp"
         android:layout_width="371dp"
         android:layout_height="252dp"
+        android:layout_gravity="center"
         android:background="@color/black"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toBottomOf="@+id/usernamePuntuaciones">
@@ -25,6 +26,7 @@
             android:layout_width="match_parent"
             android:layout_height="match_parent"
             android:src="@drawable/ross1"
+            android:layout_gravity="center"
             app:layout_constraintBottom_toBottomOf="parent"
             app:layout_constraintEnd_toEndOf="parent"
             app:layout_constraintStart_toStartOf="parent"
