@@ -6,16 +6,6 @@
     android:orientation="vertical"
     android:background="@drawable/inicio1">
 
-    <androidx.appcompat.widget.SearchView
-        android:layout_width="match_parent"
-        android:layout_height="50dp"
-        android:background="@drawable/background_search_view"
-        android:layout_marginStart="10dp"
-        android:layout_marginEnd="10dp"
-        android:layout_marginTop="20dp"
-        app:queryHint="Teemo salvage"
-        app:defaultQueryHint="Buscar amigo" />
-
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/recyclerViewChat"
         android:layout_width="match_parent"

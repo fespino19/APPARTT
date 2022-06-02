@@ -45,11 +45,11 @@ public class SplashScreenFragment extends Fragment {
 
         MutableLiveData<Boolean> finishedLoading = new MutableLiveData<>();
 
-        finishedLoading.observe(getViewLifecycleOwner(), aBoolean -> navController.navigate(R.id.action_splashScreenFragment_to_firstScreenFragment));
+        finishedLoading.observe(getViewLifecycleOwner(), aBoolean -> navController.navigate(R.id.action_splashScreenFragment_to_homeFragment));
 
         executor.execute(() -> {
             try {
-                Thread.sleep(3000);
+                Thread.sleep(2000);
                 finishedLoading.postValue(true);
             } catch (InterruptedException e) {
                 e.printStackTrace();

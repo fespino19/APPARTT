@@ -51,7 +51,7 @@ public class LogInFragment extends Fragment {
         binding.buttonLogin.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                navController.navigate(R.id.action_signInFragment_to_homeFragment);
+                navController.navigate(R.id.action_signInFragment_to_splashScreenFragment);
             }
         });
 
